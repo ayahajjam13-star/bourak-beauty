@@ -1,0 +1,38 @@
+/* App.css - Styles spécifiques à App */
+
+.app-container {
+  min-height: 100vh;
+  background-color: #0D0D0D;
+  color: #F5F1EA;
+}
+
+/* Section spacing */
+section {
+  position: relative;
+}
+
+/* Smooth image loading */
+img {
+  transition: opacity 0.3s ease;
+}
+
+img[loading="lazy"] {
+  opacity: 0.9;
+}
+
+img[loading="lazy"]:hover {
+  opacity: 1;
+}
+
+/* Selection */
+::selection {
+  background-color: #C9A961;
+  color: #0D0D0D;
+}
+
+/* Focus visible for accessibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #C9A961;
+  outline-offset: 3px;
+}
