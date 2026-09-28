@@ -25,7 +25,6 @@ export default function Hero() {
       {/* Contenu */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-20 w-full">
         <div className="max-w-xl">
-          {/* Label */}
           <motion.span
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -35,7 +34,6 @@ export default function Hero() {
             — Depuis 2011
           </motion.span>
 
-          {/* Titre */}
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -47,7 +45,6 @@ export default function Hero() {
             <em className="text-[#C9A961] not-italic italic">devient art</em>
           </motion.h1>
 
-          {/* Sous-titre */}
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -58,7 +55,6 @@ export default function Hero() {
             Découvrez un univers élégant où chaque détail compte.
           </motion.p>
 
-          {/* Boutons */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -92,7 +88,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Indicateur de scroll */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

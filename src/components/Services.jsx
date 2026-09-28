@@ -19,7 +19,7 @@ const services = [
     title: 'Beauté des mains & pieds',
     image: '/images/bourak-beauty-manucure-blanc-dore.jpeg',
     services: [
-      'Minicure',
+      'Manucure',
       'Pédicure',
       'Vernis permanent',
       'Gel',
@@ -37,10 +37,11 @@ const services = [
   },
   {
     id: 'regard',
-    title: 'Beauté du regard',
+    title: 'Sourcils & cils',
     image: '/images/bourak-beauty-cils-avant-apres.jpeg',
     services: [
-      'Les cils',
+      'Sourcils',
+      'Cils',
     ],
   },
   {
@@ -65,7 +66,6 @@ function ServiceCard({ service, index }) {
       transition={{ duration: 0.6, delay: index * 0.1 }}
       className="group relative overflow-hidden rounded-lg bg-[#1A1A1A] border border-[#C9A961]/20 hover:border-[#C9A961]/60 transition-all duration-500"
     >
-      {/* Image */}
       <div className="relative h-64 overflow-hidden">
         <img
           src={service.image}
@@ -76,7 +76,6 @@ function ServiceCard({ service, index }) {
         <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0D] via-[#0D0D0D]/40 to-transparent" />
       </div>
 
-      {/* Content */}
       <div className="p-6 md:p-8 relative">
         <h3 className="font-['Playfair_Display'] text-2xl md:text-3xl text-[#C9A961] mb-6">
           {service.title}
@@ -98,7 +97,6 @@ export default function Services() {
   return (
     <section id="services" className="bg-[#0D0D0D] py-20 md:py-28 px-4">
       <div className="max-w-7xl mx-auto">
-        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -117,7 +115,6 @@ export default function Services() {
           </p>
         </motion.div>
 
-        {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {services.map((service, index) => (
             <ServiceCard key={service.id} service={service} index={index} />

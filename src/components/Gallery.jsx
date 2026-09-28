@@ -7,10 +7,10 @@ const galleryImages = [
   { src: '/images/bourak-beauty-coloration-balayage.jpeg', alt: 'Coloration balayage chez Bourak Beauty', category: 'Coloration' },
   { src: '/images/bourak-beauty-chignon.jpeg', alt: 'Chignon élégant chez Bourak Beauty', category: 'Coiffure' },
 
-  // MANICURE
-  { src: '/images/bourak-beauty-manucure-blanc-dore.jpeg', alt: 'Minicure blanc et doré chez Bourak Beauty', category: 'Minicure' },
-  { src: '/images/bourak-beauty-manucure-nude.jpeg', alt: 'Minicure nude chez Bourak Beauty', category: 'Minicure' },
-  { src: '/images/bourak-beauty-vernis-rouge.jpeg', alt: 'Vernis rouge chez Bourak Beauty', category: 'Minicure' },
+  // MANUCURE
+  { src: '/images/bourak-beauty-manucure-blanc-dore.jpeg', alt: 'Manucure blanc et doré chez Bourak Beauty', category: 'Manucure' },
+  { src: '/images/bourak-beauty-manucure-nude.jpeg', alt: 'Manucure nude chez Bourak Beauty', category: 'Manucure' },
+  { src: '/images/bourak-beauty-vernis-rouge.jpeg', alt: 'Vernis rouge chez Bourak Beauty', category: 'Manucure' },
   { src: '/images/bourak-beauty-pedicure-spa.jpeg', alt: 'Pédicure spa chez Bourak Beauty', category: 'Pédicure' },
 
   // MAKEUP MARIÉE
@@ -21,8 +21,8 @@ const galleryImages = [
   { src: '/images/bourak-beauty-tangaft-caftan.jpeg', alt: 'Tangaft caftan doré chez Bourak Beauty', category: 'Tangaft' },
   { src: '/images/bourak-beauty-tangaft-story.jpeg', alt: 'Tangaft mariée chez Bourak Beauty', category: 'Tangaft' },
 
-  // CILS
-  { src: '/images/bourak-beauty-cils-avant-apres.jpeg', alt: 'Beauté du regard chez Bourak Beauty', category: 'Cils' },
+  // SOURCILS & CILS
+  { src: '/images/bourak-beauty-cils-avant-apres.jpeg', alt: 'Sourcils et cils chez Bourak Beauty', category: 'Sourcils & cils' },
 
   // SOINS
   { src: '/images/bourak-beauty-soin-visage.jpeg', alt: 'Soin du visage chez Bourak Beauty', category: 'Soin visage' },
