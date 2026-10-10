@@ -2,7 +2,8 @@
 
 Site e-commerce de produits de beauté avec panier interactif en JavaScript.
 
-![Bourk Beauty](./screenshot.png)
+<img width="1169" height="2143" alt="image" src="https://github.com/user-attachments/assets/ca1d58f6-1d55-45ce-bb44-9a1a0d93a68c" />
+
 
 ## 🔗 Demo Live
 
