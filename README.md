@@ -1,16 +1,62 @@
-# React + Vite
+# Bourk Beauty 🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site e-commerce de produits de beauté avec panier interactif en JavaScript.
 
-Currently, two official plugins are available:
+![Bourk Beauty](./screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔗 Demo Live
 
-## React Compiler
+👉 **[Voir le site en ligne](https://bourak-beauty.vercel.app)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Technologies
 
-## Expanding the ESLint configuration
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Déployé sur Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Fonctionnalités
+
+- 🛒 Catalogue de produits de beauté
+- ➕ Panier d'achat dynamique
+- 🔢 Ajout / suppression de produits
+- 💰 Calcul automatique du total
+- 📱 Interface responsive (mobile / tablette / desktop)
+
+## 📸 Aperçu
+
+![Screenshot du site](./screenshot.png)
+
+## 🚀 Installation locale
+
+\`\`\`bash
+# Cloner le projet
+git clone https://github.com/ayahajjam13-star/bourak-beauty.git
+
+# Entrer dans le dossier
+cd bourak-beauty
+
+# Ouvrir le site
+# Double-cliquez sur index.html ou utilisez Live Server
+\`\`\`
+
+## 📂 Structure du projet
+
+\`\`\`
+bourak-beauty/
+├── index.html
+├── style.css
+├── script.js
+└── images/
+\`\`\`
+
+## 👩‍💻 Auteur
+
+**Aya Hajjam**
+
+- GitHub: [@ayahajjam13-star](https://github.com/ayahajjam13-star)
+- Demo: [bourak-beauty.vercel.app](https://bourak-beauty.vercel.app)
+
+---
+
+⭐ N'hésitez pas à mettre une étoile si ce projet vous plaît !
