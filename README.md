@@ -26,7 +26,8 @@ Site e-commerce de produits de beauté avec panier interactif en JavaScript.
 
 ## 📸 Aperçu
 
-![Screenshot du site](./screenshot.png)
+<img width="1168" height="2161" alt="image" src="https://github.com/user-attachments/assets/4d473170-5af3-4f87-ad88-23a62890013f" />
+
 
 ## 🚀 Installation locale
 
