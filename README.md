@@ -1,64 +1,46 @@
-# Bourk Beauty 🛍️
+# 💇‍♀️ Bourak Beauty — Beauty Salon Website
 
-Site e-commerce de produits de beauté avec panier interactif en JavaScript.
+A responsive showcase website for a beauty salon based in Al Hoceima, Morocco. Built with React and Vite, featuring a modern dark theme with gold accents.
 
-<img width="1169" height="2143" alt="image" src="https://github.com/user-attachments/assets/ca1d58f6-1d55-45ce-bb44-9a1a0d93a68c" />
+## 🌐 Live Demo
 
+🔗 [https://bourak-beauty.vercel.app](https://bourak-beauty.vercel.app)
 
-## 🔗 Demo Live
+## 📝 Description
 
-👉 **[Voir le site en ligne](https://bourak-beauty.vercel.app)**
+Bourak Beauty is a beauty salon operating since 2011 in Al Hoceima, Morocco. This website showcases their services (Coiffure, Maquillage, Manucure, Soins, Beauté du regard) with an elegant and modern design. The site includes WhatsApp integration for appointment booking and Instagram link to showcase real client work.
 
-## 🛠 Technologies
+## ✨ Features
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Déployé sur Vercel
+- 📱 Fully responsive design (mobile, tablet, desktop)
+- 🎨 Elegant dark theme with gold accents
+- 💅 Services section with detailed offerings
+- 🖼️ Gallery with real salon work
+- 📞 WhatsApp contact integration for appointments
+- 📸 Instagram link
+- 🌐 Smooth scrolling and animations
 
-## ✨ Fonctionnalités
+## 🛠️ Technologies Used
 
-- 🛒 Catalogue de produits de beauté
-- ➕ Panier d'achat dynamique
-- 🔢 Ajout / suppression de produits
-- 💰 Calcul automatique du total
-- 📱 Interface responsive (mobile / tablette / desktop)
+- **React.js** — Frontend framework
+- **Vite** — Build tool
+- **CSS3** — Styling and animations
+- **JavaScript (ES6+)** — Interactivity
 
-## 📸 Aperçu
+## 🚀 Installation
 
-<img width="1168" height="2161" alt="image" src="https://github.com/user-attachments/assets/4d473170-5af3-4f87-ad88-23a62890013f" />
-
-
-## 🚀 Installation locale
-
-\`\`\`bash
-# Cloner le projet
+```bash
 git clone https://github.com/ayahajjam13-star/bourak-beauty.git
-
-# Entrer dans le dossier
 cd bourak-beauty
-
-# Ouvrir le site
-# Double-cliquez sur index.html ou utilisez Live Server
-\`\`\`
-
-## 📂 Structure du projet
-
-\`\`\`
-bourak-beauty/
-├── index.html
-├── style.css
-├── script.js
-└── images/
-\`\`\`
-
-## 👩‍💻 Auteur
-
-**Aya Hajjam**
-
-- GitHub: [@ayahajjam13-star](https://github.com/ayahajjam13-star)
-- Demo: [bourak-beauty.vercel.app](https://bourak-beauty.vercel.app)
-
----
-
-⭐ N'hésitez pas à mettre une étoile si ce projet vous plaît !
+npm install
+npm run dev
+ 
+📱 Contact
+• WhatsApp: 0616673340
+• Instagram: @bourakbeauty
+• Address: Rue el mouahidine n96, Al Hoceima 
+👩‍💻 Author
+ 
+Aya Hajjam — Junior Full Stack Developer
+• GitHub: @ayahajjam13-star
+• LinkedIn: hajjam-aya
