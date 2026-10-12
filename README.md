@@ -29,7 +29,6 @@ Bourak Beauty is a beauty salon operating since 2011 in Al Hoceima, Morocco. Thi
 
 ## 🚀 Installation
 
-```bash
 git clone https://github.com/ayahajjam13-star/bourak-beauty.git
 cd bourak-beauty
 npm install
@@ -39,7 +38,7 @@ npm run dev
 • WhatsApp: 0616673340
 • Instagram: @bourakbeauty
 • Address: Rue el mouahidine n96, Al Hoceima 
-👩‍💻 Author
+👩💻 Author
  
 Aya Hajjam — Junior Full Stack Developer
 • GitHub: @ayahajjam13-star
